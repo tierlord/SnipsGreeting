@@ -1,7 +1,6 @@
 from random import randint
 from hermes_python.hermes import Hermes
 
-
 def greet (hermes, message):
     sentences = [
         "Schön, dass du da bist.",
@@ -11,7 +10,7 @@ def greet (hermes, message):
         "Ich hoffe, du hattest Spaß",
         "Erzähl mir von deinem Tag!",
         "Ich habe hier auf dich gewartet"
-    ]
+        ]
 
     generated_int = randint(0, len(sentences)-1)
     msg = sentences[generated_int]

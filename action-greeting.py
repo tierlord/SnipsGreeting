@@ -19,5 +19,5 @@ def greet (hermes, message):
 
 with Hermes("localhost:1883") as h:
     h \
-        .subscribe_intent("tierlord:Begrüßung", greet) \
+        .subscribe_intent("tierlord:Greeting", greet) \
         .start()

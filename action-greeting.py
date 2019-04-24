@@ -10,8 +10,9 @@ def greet (hermes, message):
         "Willkommen zurück",
         "Ich grüße dich",
         "Ich hoffe, du hattest Spaß",
-        "Erzähl mir von deinem Tag!",
-        "Ich habe hier auf dich gewartet"
+        "Toll! Erzähl mir von deinem Tag!",
+        "Ich habe hier auf dich gewartet",
+        "Ich bin froh, dass du wieder zurück bist."
         ]
 
     generated_int = randint(0, len(sentences)-1)

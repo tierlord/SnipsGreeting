@@ -18,4 +18,4 @@ fi
 . $VENV/bin/activate
 
 pip install -r requirements.txt
-chmod +x action-ip.py
+chmod +x action-greeting.py

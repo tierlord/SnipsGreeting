@@ -18,7 +18,7 @@ def greet (hermes, message):
     generated_int = randint(0, len(sentences)-1)
     msg = sentences[generated_int]
 
-    return hermes.publish_end_session(message.session_id, msg)
+    hermes.publish_end_session(message.session_id, msg)
 
 with Hermes("localhost:1883") as h:
     h \
